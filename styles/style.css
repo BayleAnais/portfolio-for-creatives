@@ -12,8 +12,8 @@ Add the Google Fonts you want, remove the ones you don't.
 
 @import url("https://fonts.googleapis.com/css2?family=Hepta+Slab|Staatliches&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;800&family=Space+Grotesk:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap");
 
 
 /*
@@ -73,31 +73,32 @@ html {
 /* Design variables refer to CSS variables that store specific design elements, such as colors and typography, which can be utilized throughout a website. Instead of individually modifying each CSS element, designers can quickly make changes by using design variables. Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: "Inter", sans-serif;
-  --heading-typeface: 'Eczar', serif;
-  --project-title-typeface: 'Eczar', serif;
-  --background-color: #fdfdfd;
+  --body-typeface: 'Manrope', sans-serif;
+  --heading-typeface: 'Manrope', sans-serif;
+  --project-title-typeface: 'Manrope', sans-serif;
+  --background-color: #151515;
   --background-color-about: #f5f5f5;
-  --background-color-footer: #f5f5f5;    
+  --background-color-footer: #151515;    
   --alt-background-color: #000000;
-  --background-color-holding-page: rgba(82, 0, 255,0.6);
-  --h1-color: #5200ff;
-  --h2-color: #5200ff;
-  --h3-color: #5200ff;
-  --h4-color: #5200ff;
-  --h5-color: #5200ff;
-  --h6-color: #5200ff;
-  --primary-text-color: #222;
+  --background-color-holding-page: #f1f1f1;
+  --h1-color: #f1f1f1;
+  --h2-color: #f1f1f1;
+  --h3-color: #f1f1f1;
+  --h4-color: #2e2e2e;
+  --h5-color: #2e2e2e;
+  --h6-color: #2e2e2e;
+  --primary-text-color:  #f1f1f1;;
   --holding-page-title-color: #ebedf0;
-  --accent-color: #5200ff;
-  --overlay-color: #5200ff;
+  --accent-color: #f1f1f1;
+  --overlay-color: #f1f1f1;
   --overlay-title-color: #ffffff;
   --overlay-description-color: #ffffff;
-  --hyperlink-color: #5200ff;
-  --hyperlink-alternate-color: orangered;
-  --hover-color: #111;
-  --visited-color: #5200ff;
-  --project-title-color: #5200ff;
+  --hyperlink-color: #f1f1f1;
+  --hyperlink-alternate-color: #2e2e2e;
+  --hyperlink-alternate-style: underline;
+  --hover-color: #ec4132;
+  --visited-color: #f1f1f1;
+  --project-title-color: #f1f1f1;
   --project-sidebar-background-color: orangered;
   --project-sidebar-text-color: white;
   --heart-color: darkred;
@@ -153,6 +154,7 @@ h1 {
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
   color: var(--h1-color);
+  font-weight: 700;
 }
 
 h2 {
@@ -160,6 +162,7 @@ h2 {
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
   color: var(--h2-color);
+  font-weight: 300;
 }
 
 h3 {
