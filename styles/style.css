@@ -73,34 +73,35 @@ html {
 /* Design variables refer to CSS variables that store specific design elements, such as colors and typography, which can be utilized throughout a website. Instead of individually modifying each CSS element, designers can quickly make changes by using design variables. Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: 'Space Grotesk', sans-serif;
-  --heading-typeface: 'Space Grotesk', sans-serif;
-  --project-title-typeface: 'Space Grotesk', sans-serif;
+  --body-typeface: 'Manrope', sans-serif;
+  --heading-typeface: 'Manrope', sans-serif;
+  --project-title-typeface: 'Manrope', sans-serif;
   --background-color: #151515;
+  --background-color-work: #151515;
   --background-color-about: #f5f5f5;
-  --background-color-footer: #151515;    
+  --background-color-footer: #f34c2e;    
   --alt-background-color: #000000;
   --background-color-holding-page: #f1f1f1;
-  --h1-color: #f1f1f1;
-  --h2-color: #f1f1f1;
-  --h3-color: #f1f1f1;
+  --h1-color: #2e2e2e;
+  --h2-color: #2e2e2e;
+  --h3-color: #2e2e2e;
   --h4-color: #2e2e2e;
   --h5-color: #2e2e2e;
   --h6-color: #2e2e2e;
-  --primary-text-color:  #f1f1f1;;
+  --primary-text-color:  #2e2e2e;;
   --holding-page-title-color: #ebedf0;
   --accent-color: #f1f1f1;
   --overlay-color: #f1f1f1;
-  --overlay-title-color: #ffffff;
-  --overlay-description-color: #ffffff;
-  --hyperlink-color: #f1f1f1;
+  --overlay-title-color: #2e2e2e;
+  --overlay-description-color: #2e2e2e;
+  --hyperlink-color: #2e2e2e;
   --hyperlink-alternate-color: #2e2e2e;
   --hyperlink-alternate-style: underline;
   --hover-color: #ec4132;
-  --visited-color: #f1f1f1;
+  --visited-color: #2e2e2e;
   --project-title-color: #f1f1f1;
   --project-sidebar-background-color: orangered;
-  --project-sidebar-text-color: white;
+  --project-sidebar-text-color: #2e2e2e;
   --holding-page-footer-color: #f8f8ff;
   --stroke-shadow-color: rgba(0, 0, 0, 0.4);
 }
@@ -458,10 +459,6 @@ a:active {
   grid-row: 2 / 3;
 }
 
-.about-item-3 {
-  grid-column: 1 / 2;
-  grid-row: 3 / 4;
-}
 
 .about-item-4 {
   grid-column: 1 / 2;
@@ -482,13 +479,13 @@ a:active {
 .global-footer {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 3rem;
+  grid-gap: 1rem;
   min-height: 100vh;
   background: var(--background-color-footer);
   padding: 1rem;
 }
 
-.footer-item-1 {
+.footer-cta {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
