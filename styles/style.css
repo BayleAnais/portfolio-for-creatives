@@ -315,39 +315,43 @@ a:active {
 ██   ██ ██      ██   ██ ██    ██ 
 ██   ██ ███████ ██   ██  ██████  
                                  
-*/
 
-.hero {
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.branding-navigation {
+/* static header*/
+.header-menu {
   display: flex;
   flex-direction: row;
+  width: 8rem;
   justify-content: space-between;
-  padding: 1rem;
-  align-items: flex-start;
 }
+
+.header {
+  min-height: 5vh;
+  max-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: #ffffff;
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 1rem;
+    margin-bottom: 4rem;
+}
+
 
 .logo {
   width: 3rem;
+  list-style: none;
 }
 
-.hero-headline-wrapper {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem 4rem;
-  text-align: center;
-}
 
-.hero-icon {
-  font-size: 4rem;
-}
+
+
+
 
 .hero-footer {
   display: flex;
@@ -479,28 +483,32 @@ a:active {
 
 .about {
   display: grid;
-  grid-template-columns: 1fr;
   grid-gap: 3rem;
   background: var(--background-color-about);
   padding: 1rem;
+  adding-top: 4rem;
   flex: 1;
+  padding-top: 4rem;
+  grid-template-columns: 1fr 1fr;
 }
 
 .about-item-1 {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    
+}
+
+.about-image {
+  max-width: 500px;
+  align-content: right;
 }
 
 .about-item-2 {
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
-}
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    list-style: none;
 
 
-.about-item-4 {
-  grid-column: 1 / 2;
-  grid-row: 4 / 5;
-}
 
 /* Global Footer
 
@@ -571,6 +579,7 @@ a:active {
   display: flex;
   flex-direction: row;
   padding: 4rem;
+  max-width: 80%;
   align-self: center;
 }
 
@@ -590,6 +599,7 @@ a:active {
   padding-left: 4rem;
   padding-right: 4rem;
   align-self: center;
+  max-width: 85%;
   padding-bottom: 4rem;
 }
 
@@ -890,6 +900,7 @@ a.sub-navigation-link:hover {
 
   h2 {
     font-size: 2.25rem;
+    line-height: 1.5;
   }
 
   h3 {
