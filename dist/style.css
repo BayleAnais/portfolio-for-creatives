@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight");
+body {
+  background-color: #dcd9d4;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    radial-gradient(
+      at 50% 0%,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(0, 0, 0, 0.5) 50%
+    );
+  background-blend-mode: soft-light, screen;
+  min-height: 100vh;
+  max-width: 100%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: hidden;
+}
+a {
+  color: black;
+}
+
+h1 {
+  font-family: "Zilla Slab Highlight", cursive;
+  font-size: 2em;
+  display: inline-block;
+  background: white;
+  transition: all 300ms;
+}
+h1:hover {
+  transform: translate(-1px, -1px);
+}
+
+.menu-item {
+  margin-bottom: 0.5em;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.navigation-menu {
+  width: 30%;
+  min-height: 100vh;
+}
+
+.project-hero-images {
+  width: 70%;
+
+  position: relative;
+  border-left: 2px solid gray;
+}
+/* A hidden full-screen overlay */
+.overlay1,
+.overlay2,
+.overlay3,
+.overlay4,
+.overlay5,
+.overlay6,
+.overlay7,
+.overlay8 {
+  position: absolute;
+  display: none;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  /* To make sure the overlay is on top of the background image, set the z-index to -1; */
+  z-index: -1;
+}
+
+/* Background images */
+.overlay1 {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/white-paper.jpg);
+}
+.overlay2 {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/computer.jpg);
+  background-position: bottom center;
+}
+.overlay3 {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/phone.jpg);
+}
+
+.overlay4 {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/phone.jpg);
+}
+.overlay5 {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/phone.jpg);
+}
+.overlay6 {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/phone.jpg);
+}
+.overlay7 {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/phone.jpg);
+}
+.overlay8 {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/phone.jpg);
+}
