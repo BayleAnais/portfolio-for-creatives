@@ -290,6 +290,10 @@ a:active {
   padding-bottom: 6rem;
 }
 
+.info-sublist {
+  padding-bottom: 1rem;
+}
+
 .subheading-edu {
   margin-top: 3rem;
   font-size: medium;
@@ -320,7 +324,7 @@ a:active {
 }
 
 .about-bio {
-  font-size: 1.725rem;
+  font-size: 1.325rem;
   font-weight: 400;
   line-height: 1.5;
   margin-bottom: 3rem;
@@ -1083,6 +1087,7 @@ a.sub-navigation-link:hover {
 
   .about {
     padding-top: 0;
+    padding-bottom: 0;
     padding-left:4rem;
     padding-right: 4rem; 
     grid-template-columns: 1fr 1fr;
