@@ -117,7 +117,7 @@ body {
 /* The ::selection CSS pseudo-element applies styles to the part of a document that has been highlighted by the user (such as clicking and dragging the mouse across text). */
 
 ::selection {
-  background: var(--accent-color);
+  background: var(--hover-color);
 }
 
 /* Make all images responsive */
@@ -226,10 +226,6 @@ a:visited {
 
 a:hover {
   color: var(--hover-color);
-}
-
-a:focus {
-  outline: 1px solid var(--accent-color);
 }
 
 a:active {
