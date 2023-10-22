@@ -307,6 +307,13 @@ a:active {
   font-size: 1.2rem;
   color: #ec5332;
 }
+.subheading-red2 {
+  margin-top: 0.75rem;
+  font-size: medium;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #ec5332;
+}
 
 .subheading-red-link {
   margin-top: 3rem;
@@ -653,6 +660,7 @@ static header*/
   background: var(--background-color-red-footer);
   padding: 1rem;
   padding-top: 2rem;
+  cursor: url("../assets/branding-images/white-cursor.svg"), auto !important;
 }
 
 .global-footer {
@@ -916,9 +924,6 @@ project-list-content {
   place-items: center;
 }
 
-.error-page-wrapper {
-}
-
 .error-page-inner-container {
   text-align: center;
 }
@@ -939,9 +944,6 @@ project-list-content {
 .play-page {
   display: grid;
   place-items: center;
-}
-
-.play-page-wrapper {
 }
 
 .play-page-inner-container {
@@ -1003,9 +1005,6 @@ project-list-content {
   text-align: center;
 }
 
-.sub-navigation-item {
-}
-
 a.sub-navigation-link {
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
@@ -1041,16 +1040,6 @@ a.sub-navigation-link:hover {
   padding: 2rem;
   display: grid;
   place-items: center;
-}
-
-@-webkit-keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(359deg);
-  }
 }
 
 /*
