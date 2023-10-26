@@ -53,6 +53,11 @@ html {
   cursor: pointer url("../assets/branding-images/red-cursor.svg"), auto !important;
 }
 
+a {
+  cursor: pointer url("../assets/branding-images/red-cursor.svg"), auto !important;
+  color: #2e2e2e;
+}
+
 *,
 *:before,
 *:after {
@@ -381,6 +386,17 @@ a:active {
   font-size: 1.2rem;
 }
 
+.project-bottom-text {
+  margin-bottom: 1rem;
+  font-size: medium;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.project-bottom-text:hover {
+  color: #ec5332;
+}
+
 .red-footer-item-1 {
   font-weight: 300;
   color: #f1f1f1;
@@ -503,6 +519,11 @@ static header*/
   background-color: #f1f1f1;
 }
 
+a.menu-item-grey:hover,
+a.menu-item-white:hover {
+  color: #f1f1f1;
+}
+
 .menu-item-grey:hover,
 .menu-item-white:hover {
   background-color: #ec5332;
@@ -529,17 +550,17 @@ static header*/
 
 /* Background images */
 .overlay1 {
-  background-image: url(../assets/cover-images/atom-skincare-intro.gif);
+  background-image: url(../assets//cover-images/anais-bayle-atom-cover.gif);
 }
 .overlay2 {
-  background-image: url(../assets/cover-images/atom-skincare-intro.gif);
+  background-image: url(../assets/cover-images/anais-bayle-hue-cover.gif);
 }
 .overlay3 {
-  background-image: url(../assets/content-images/cost-of-waste/cost-of-wasteposters-loop.gif);
+  background-image: url(../assets/cover-images/anais-bayle-cost-of-waste-cover.gif);
 }
 
 .overlay4 {
-  background-image: url(../assets/content-images/cost-of-waste/cost-of-wastesubway-mockup.jpg);
+  background-image: url(../assets/cover-images/anais-bayle-untwist-cover.gif);
 }
 .overlay5 {
   background-image: url(../assets/cover-images/anais-bayle-coming-soon.jpg);
@@ -724,6 +745,21 @@ static header*/
   flex: 1;
   grid-template-columns: 1fr;
 }
+.project-image-grid {
+  display: grid;
+  grid-gap: 1rem;
+  background: var(--background-color-about);
+  padding-top: 2rem;
+  grid-template-columns: 1fr;
+}
+
+.project-bottom-grid {
+  display: grid;
+  grid-gap: 1rem;
+  background: var(--background-color-about);
+  flex: 1;
+  grid-template-columns: 1fr;
+}
 
 .project-text-section {
   display: grid;
@@ -780,6 +816,13 @@ project-list-content {
   line-height: 1.5;
 }
 
+.hue-resize-mobile {
+  display: initial;
+}
+.hue-resize {
+  display: none;
+}
+
 .project-sub-category {
   line-height: 1.5;
   padding-bottom: 1.75rem;
@@ -823,6 +866,10 @@ project-list-content {
   margin-bottom: 1rem;
 }
 
+.project-content-2 {
+  margin-top: 1rem;
+}
+
 .project-navigation {
   display: flex;
   flex-direction: row;
@@ -840,6 +887,94 @@ project-list-content {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1920px;
+
+  position: relative;
+  margin: 8rem;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #2e2e2e;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  color: #ec5332;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 1rem;
+  padding: 1rem 1.25rem;
+  position: absolute;
+  bottom: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #ec5332;
+}
+
+.bottom-nav-1 {
+  grid-column: 1;
+}
+
+.bottom-nav-2 {
+  grid-column: 2 / 2;
+  justify-self: end;
+}
+
+.bottom-nav-1:hover,
+.bottom-nav-2:hover {
+  color: #ec5332;
 }
 
 /* 
@@ -1256,11 +1391,27 @@ a.sub-navigation-link:hover {
     grid-template-columns: 1fr 1fr;
   }
 
+  .project-content {
+    margin-bottom: 2rem;
+  }
+
+  .project-content-2 {
+    margin-bottom: 2rem;
+  }
+
   .project-secondary {
-    padding-left: 8rem;
-    padding-right: 8rem;
-    padding-bottom: 4rem;
-    padding-top: 4rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .project-image-grid {
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .project-bottom-grid {
+    grid-gap: 2rem;
     grid-template-columns: 1fr 1fr;
   }
 
@@ -1284,9 +1435,21 @@ a.sub-navigation-link:hover {
     padding-top: 1rem;
   }
 
-  .project-item-3 {
+  .project-image-1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .project-image-2 {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+  }
+
+  .hue-resize-mobile {
+    display: none;
+  }
+  .hue-resize {
+    display: initial;
   }
 
   .projects {

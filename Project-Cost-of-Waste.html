@@ -110,6 +110,21 @@
               alt="Single-poster mockup in train station setting"
             />
           </div>
+
+          <div class="project-content-2">
+            <ul class="project-image-grid">
+              <li class="bottom-nav-1">
+                <h3 class="project-subtitle">
+                  <a href="work.html">Previous Project</a>
+                </h3>
+              </li>
+              <li class="bottom-nav-2">
+                <h3 class="project-subtitle">
+                  <a href="work.html">Next Project</a>
+                </h3>
+              </li>
+            </ul>
+          </div>
         </li>
       </ul>
     </div>
@@ -166,24 +181,5 @@
         <p class="fineprint">&copy; Anaïs Bayle 2023</p>
       </li>
     </ul>
-
-    <div id="myID" class="bottomMenu hide">
-      <a href="project-1.html">Previous Project</a>
-    </div>
-
-    <script type="text/javascript">
-      myID = document.getElementById("myID");
-
-      var myScrollFunc = function () {
-        var y = window.scrollY;
-        if (y >= 800) {
-          myID.className = "bottomMenu show";
-        } else {
-          myID.className = "bottomMenu hide";
-        }
-      };
-
-      window.addEventListener("scroll", myScrollFunc);
-    </script>
   </body>
 </html>
