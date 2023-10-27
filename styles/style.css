@@ -749,7 +749,7 @@ a.menu-item-white:hover {
   display: grid;
   grid-gap: 1rem;
   background: var(--background-color-about);
-  padding-top: 2rem;
+
   grid-template-columns: 1fr;
 }
 
@@ -1461,6 +1461,10 @@ a.sub-navigation-link:hover {
   .project-hero-images {
     width: 70%;
     flex-direction: column;
+    background-image: url(../assets/branding-images/anais-bayle-light-logo-large.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
   }
 
   .homepage-menu {
