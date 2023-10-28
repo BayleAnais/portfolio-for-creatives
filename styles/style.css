@@ -1073,6 +1073,10 @@ project-list-content {
 .error-page {
   display: grid;
   place-items: center;
+  background-image: url(..//assets/branding-images/anais-bayle-error-page-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .error-page-inner-container {
