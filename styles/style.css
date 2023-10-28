@@ -723,6 +723,9 @@ a.menu-item-white:hover {
 .red-text-for-footer {
   color: #ec5332;
 }
+.red-text-for-footer:hover {
+  color: #2e2e2e;
+}
 
 /* Project Page 
 
