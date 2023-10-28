@@ -286,6 +286,11 @@ a:active {
   line-height: 1.5;
 }
 
+.info-item-gap {
+  line-height: 1.5;
+  padding-top: 1rem;
+}
+
 .info-list {
   padding-bottom: 2rem;
 }
@@ -563,7 +568,7 @@ a.menu-item-white:hover {
   background-image: url(../assets/cover-images/anais-bayle-untwist-cover.gif);
 }
 .overlay5 {
-  background-image: url(../assets/cover-images/anais-bayle-coming-soon.jpg);
+  background-image: url(../assets/cover-images/anais-bayle-coming-soon.gif);
 }
 .overlay6 {
   background-image: url(../assets/cover-images/anais-bayle-illustrations.gif);
@@ -868,6 +873,10 @@ project-list-content {
 
 .project-content-2 {
   margin-top: 1rem;
+}
+
+.gallery-content {
+  margin-bottom: 1rem;
 }
 
 .project-navigation {
@@ -1189,7 +1198,7 @@ a.sub-navigation-link:hover {
 
 /* Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) {
+@media (width: 768px) {
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -1214,8 +1223,8 @@ a.sub-navigation-link:hover {
   }
 
   .about-bio {
-    font-size: 2.25rem;
-    max-width: 80%;
+    font-size: 1.85rem;
+    max-width: 90%;
   }
 
   .header {
@@ -1399,6 +1408,10 @@ a.sub-navigation-link:hover {
     margin-bottom: 2rem;
   }
 
+  .gallery-content {
+    margin-bottom: 2rem;
+  }
+
   .project-secondary {
     padding-bottom: 2rem;
     padding-top: 2rem;
@@ -1441,6 +1454,16 @@ a.sub-navigation-link:hover {
   }
 
   .project-image-2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .gallery-image-1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .gallery-image-2 {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
   }
@@ -1552,10 +1575,22 @@ a.sub-navigation-link:hover {
 /* X-Large devices (large desktops, 1200px and up)*/
 
 @media (min-width: 1200px) {
+  .about-bio {
+    font-size: 2.25rem;
+    max-width: 80%;
+  }
+
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
     align-items: center;
     padding: 10rem;
+  }
+
+  .about-item-2 {
+    grid-column: 2 / 2;
+    grid-row: 1 / 2;
+    padding-top: 4rem;
+    max-width: 950px;
   }
 }
 

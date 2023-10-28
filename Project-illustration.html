@@ -45,186 +45,37 @@
 
     <div>
       <ul class="project">
-        <li class="project-item-1">
+        <li class="gallery-item-1">
           <h1 class="project-title">Illustration Gallery</h1>
-          <h4>Digital and analog mediums</h4>
+          <h4>Digital & analog mediums</h4>
         </li>
-
-        <li class="project-item-2">
+        <li class="gallery-item-2">
           <ul class="project-list">
             <li class="project-item">
-              A curated collection of illustration projects created for
-              editorial, fun, or school. Click to see them in greater detail!
+              A curated collection of illustration done for personal, school, or
+              editorial purposes. Hover on each to learn more!
             </li>
           </ul>
         </li>
       </ul>
     </div>
 
-    <!-- Slideshow container -->
-    <div class="slideshow-container">
-      <!-- Full-width images with number and caption text -->
-      <div class="mySlides fade">
-        <img
-          src="assets/content-images/Hue/anais-bayle-hue-menu-cookbook-packaging-design-colour-wheel.jpg"
-          style="width: 100%"
-        />
-        <div class="text">Caption Text</div>
-      </div>
-
-      <div class="mySlides fade">
-        <img
-          src="assets/content-images/illus/anais-bayle-illustration-painting-portrait-camera.jpg"
-          style="width: 100%"
-        />
-        <div class="text">Caption Two</div>
-      </div>
-
-      <div class="mySlides fade">
-        <img
-          src="assets/content-images/cost-of-waste/cost-of-wasteoutdoor-posters-mockup.jpg"
-          style="width: 100%"
-        />
-        <div class="text">Caption Three</div>
-      </div>
-
-      <!-- Next and previous buttons -->
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <br />
-
-    <!-- The dots/circles -->
-    <div style="text-align: center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-
-    <script>
-      let slideIndex = 1;
-      showSlides(slideIndex);
-
-      // Next/previous controls
-      function plusSlides(n) {
-        showSlides((slideIndex += n));
-      }
-
-      // Thumbnail image controls
-      function currentSlide(n) {
-        showSlides((slideIndex = n));
-      }
-
-      function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {
-          slideIndex = 1;
-        }
-        if (n < 1) {
-          slideIndex = slides.length;
-        }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-      }
-    </script>
-
     <div>
       <ul class="project-image-list">
         <li class="project-wrapper">
-          <div class="project-content">
-            <img
-              src="assets/content-images/Hue/anais-bayle-hue-brand-overview-branding-layout-menu-packaging-cookbook.gif"
-              alt="gif of 3 images, displaying a preview of the Hue menu, packaging, and cookbook"
-            />
-          </div>
-          <div class="project-content">
-            <img
-              src="assets/content-images/Hue/anais-bayle-hue-menu-cookbook-packaging-design-colour-wheel.jpg"
-              alt="Hue colour wheel depicting seasonal colours of BC produce"
-            />
-          </div>
-
-          <div class="project-content">
-            <ul class="project-secondary">
-              <li class="project-item-2">
-                <ul class="project-list-content">
-                  <li>
-                    <h3 class="project-subtitle">The Menu</h3>
-                  </li>
-                  <li class="project-item-content">
-                    With vibrant local food being the focal point of the brand,
-                    Hue needed a menu that captured their essence. Highlighting
-                    key colours of seasonal foods, this multi-page menu guides
-                    the customer on a colourful journey of culinary discovery.
-                    The menu features curated seasonal recipes full of
-                    exceptional flavours, and excitingly vivid colour—all from
-                    natural ingredients.
-                  </li>
-
-                  <li class="project-item-content">
-                    Featured is the Autumn menu. Menus for other seasons would
-                    be respectively colour-coded as per the seasonal colour
-                    wheel.
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-
-          <div class="project-content">
+          <div class="project-gallery">
             <ul class="project-image-grid">
               <li class="project-image-1">
                 <img
-                  src="assets/content-images/Hue/anais-bayle-hue-menu-cookbook-packaging-design-front-folded.jpg"
+                  src="assets/content-images/atom/anais-bayle-package-design-open-containers.jpg"
                   alt="Folded menu for Hue."
                 />
               </li>
               <li class="project-image-2">
                 <img
-                  src="assets/content-images/Hue/anais-bayle-hue-menu-cookbook-packaging-design-drinks-menu.jpg"
-                  alt="front and back of a drinks menu sheet, with a seasonal colour wheel on one side and drinks on the other."
+                  src="assets/content-images/atom/anais-bayle-packaging-box-design-kickoff-mockup.jpg"
+                  alt="box and bottle design mockup for Atom Kickoff cleanser product."
                 />
-              </li>
-            </ul>
-          </div>
-
-          <
-
-          <div style="padding: 66.46% 0 0 0; position: relative">
-            <iframe
-              src="https://player.vimeo.com/video/878179486?h=5c0517e3db&autoplay=1&loop=1&title=0&byline=0&portrait=0"
-              style="
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-              "
-              frameborder="0"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <script src="https://player.vimeo.com/api/player.js"></script>
-          <div class="project-content-2">
-            <ul class="project-image-grid">
-              <li class="bottom-nav-1">
-                <h3 class="project-bottom-text">
-                  <a href="work.html">Previous Project</a>
-                </h3>
-              </li>
-              <li class="bottom-nav-2">
-                <h3 class="project-bottom-text">
-                  <a href="work.html">Next Project</a>
-                </h3>
               </li>
             </ul>
           </div>
