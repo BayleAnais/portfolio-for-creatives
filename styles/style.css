@@ -223,9 +223,9 @@ a:link {
   text-decoration: none;
 }
 
-a:visited {
+/* a:visited {
   color: var(--visited-color);
-}
+} */
 
 /* a:focus {
   outline: 1px solid var(--accent-color);
@@ -526,7 +526,7 @@ static header*/
 
 a.menu-item-grey:hover,
 a.menu-item-white:hover {
-  color: #f1f1f1;
+  color: white;
 }
 
 .menu-item-grey:hover,
@@ -541,10 +541,15 @@ a.menu-item-white:hover {
   grid-template-columns: 1fr 6fr;
 }
 
+.white-on-hover:hover {
+  color: ;
+}
+
 .project-name {
   grid-column: 2/2;
   justify-self: start;
 }
+
 .project-thumbnail {
   grid-column: 1/2;
   justify-self: start;
@@ -765,6 +770,14 @@ a.menu-item-white:hover {
   grid-template-columns: 1fr;
 }
 
+.project-gallery-grid {
+  display: grid;
+  grid-gap: 1rem;
+  background: var(--background-color-about);
+
+  grid-template-columns: 1fr;
+}
+
 .project-bottom-grid {
   display: grid;
   grid-gap: 1rem;
@@ -870,7 +883,22 @@ project-list-content {
   padding-bottom: 1rem;
 }
 
+.project-gallery-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-self: center;
+  max-width: 100%;
+  padding-bottom: 1rem;
+}
+
 .project-wrapper {
+  width: 100%;
+}
+
+.project-gallery-wrapper {
   width: 100%;
 }
 
@@ -1434,6 +1462,11 @@ a.sub-navigation-link:hover {
     grid-template-columns: 1fr 1fr;
   }
 
+  .project-gallery-grid {
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
   .project-bottom-grid {
     grid-gap: 2rem;
     grid-template-columns: 1fr 1fr;
@@ -1515,14 +1548,8 @@ a.sub-navigation-link:hover {
     flex-direction: row;
   }
 
-  /* Sidebar on Large Devices */
-  .project-aside {
-    width: 35%;
-    height: 65vh;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 5vh;
-    padding-right: 2rem;
+  .project-gallery-wrapper {
+    flex-direction: row;
   }
 
   .project-info {
@@ -1543,6 +1570,12 @@ a.sub-navigation-link:hover {
   }
 
   .project-image-list {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 4rem;
+  }
+
+  .project-gallery-list {
     padding-left: 8rem;
     padding-right: 8rem;
     padding-bottom: 4rem;
