@@ -450,8 +450,7 @@ a:active {
 ██   ██ ██      ██   ██ ██    ██ 
 ██   ██ ███████ ██   ██  ██████  
                                  
-
-static header*/
+*/
 
 .header-menu {
   display: flex;
@@ -477,8 +476,23 @@ static header*/
 }
 
 .logo {
-  width: 2rem;
-  list-style: none;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-gap: 1rem;
+}
+
+.logo-image {
+  grid-column: 1;
+  max-width: 2.5rem;
+}
+
+.logo-name {
+  grid-column: 2;
+  grid-column: 2;
+  align-self: center;
+  display: grid;
+  font-weight: 600;
+  color: white;
 }
 
 .hero-footer {
@@ -493,6 +507,10 @@ static header*/
   flex-direction: row;
   justify-content: space-between;
   padding: 1rem;
+}
+
+.nav-up {
+  top: -10vh;
 }
 
 /* Work Page Layout
@@ -517,16 +535,13 @@ static header*/
 .menu-item-white {
   padding-left: 2rem;
   background-color: white;
+  color: #2e2e2e;
 }
 
 .menu-item-grey {
   padding-left: 2rem;
   background-color: #f1f1f1;
-}
-
-a.menu-item-grey:hover,
-a.menu-item-white:hover {
-  color: white;
+  color: #2e2e2e;
 }
 
 .menu-item-grey:hover,
@@ -839,6 +854,7 @@ project-list-content {
 
 .hue-resize-mobile {
   display: initial;
+  width: 100%;
 }
 .hue-resize {
   display: none;
@@ -943,7 +959,6 @@ project-list-content {
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
 }
 
 /* Next & previous buttons */
@@ -1268,7 +1283,20 @@ a.sub-navigation-link:hover {
   }
 
   .logo {
-    width: 3rem;
+    grid-gap: 2rem;
+  }
+
+  .logo-image {
+    grid-column: 1;
+    max-width: 3rem;
+  }
+
+  .logo-name {
+    grid-column: 2;
+    align-self: center;
+    display: grid;
+    font-weight: 400;
+    color: #9a9a9a;
   }
 
   .about-image {
@@ -1298,6 +1326,11 @@ a.sub-navigation-link:hover {
   .menu-item-white {
     grid-gap: 0.5rem;
     padding-left: 4rem;
+  }
+
+  .menu-item-grey:hover,
+  .menu-item-white:hover {
+    color: white;
   }
 
   .descriptor-name {
