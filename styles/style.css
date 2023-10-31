@@ -541,10 +541,6 @@ a.menu-item-white:hover {
   grid-template-columns: 1fr 6fr;
 }
 
-.white-on-hover:hover {
-  color: ;
-}
-
 .project-name {
   grid-column: 2/2;
   justify-self: start;
