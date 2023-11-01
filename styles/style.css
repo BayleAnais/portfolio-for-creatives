@@ -785,8 +785,7 @@ a:active {
   display: grid;
   grid-gap: 1rem;
   background: var(--background-color-about);
-
-  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 }
 
 .project-bottom-grid {
@@ -949,75 +948,6 @@ project-list-content {
   box-sizing: border-box;
 }
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1920px;
-
-  position: relative;
-  margin: 8rem;
-}
-
-/* Hide the images by default */
-.mySlides {
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: #2e2e2e;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  color: #ec5332;
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 1rem;
-  padding: 1rem 1.25rem;
-  position: absolute;
-  bottom: 0.5rem;
-  width: 100%;
-  text-align: center;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 12px;
-  width: 12px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-  background-color: #ec5332;
-}
-
 .bottom-nav-1 {
   grid-column: 1;
 }
@@ -1030,6 +960,16 @@ project-list-content {
 .bottom-nav-1:hover,
 .bottom-nav-2:hover {
   color: #ec5332;
+}
+
+/* Illustration page */
+
+.illus-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 1rem;
+  flex-direction: column;
 }
 
 /* 
@@ -1460,6 +1400,28 @@ a.sub-navigation-link:hover {
     min-height: 85vh;
   }
 
+  .illus-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    flex-direction: row;
+  }
+
+  .illus-grid-item-1 {
+    grid-column: 1/8;
+    grid-row: 1/8;
+  }
+
+  .illus-grid-item-2 {
+    grid-column: 4/8;
+    grid-row: 2/8;
+  }
+
+  .illus-grid-item-3 {
+    grid-column: 4/8;
+    grid-row: 4/8;
+  }
+
   .project {
     padding-left: 8rem;
     padding-right: 8rem;
@@ -1493,7 +1455,7 @@ a.sub-navigation-link:hover {
 
   .project-gallery-grid {
     grid-gap: 2rem;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 
   .project-bottom-grid {
@@ -1532,13 +1494,33 @@ a.sub-navigation-link:hover {
   }
 
   .gallery-image-1 {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
+    grid-column: 1 / span 4;
+    grid-row: 1;
   }
 
   .gallery-image-2 {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
+    grid-column: 5 / span 4;
+    grid-row: 1;
+  }
+
+  .gallery-image-3 {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+  }
+
+  .gallery-image-4 {
+    grid-column: 4 / span 5;
+    grid-row: 2;
+  }
+
+  .gallery-image-5 {
+    grid-column: 1 / span 4;
+    grid-row: 3;
+  }
+
+  .gallery-image-6 {
+    grid-column: 5 / span 4;
+    grid-row: 3;
   }
 
   .hue-resize-mobile {
