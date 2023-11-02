@@ -607,12 +607,17 @@ a:active {
 .homepage-menu {
   width: 100%;
   min-height: 80vh;
-  padding-top: 4rem;
+  padding-top: 2.5rem;
 }
 
 .image-container {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.work-list {
+  justify-self: start;
+  align-self: center;
 }
 
 .project-hero-images {
@@ -1267,6 +1272,7 @@ a.sub-navigation-link:hover {
   .menu-item-white {
     grid-gap: 0.5rem;
     padding-left: 4rem;
+    color: #ebedf0;
   }
 
   .menu-item-grey:hover,
@@ -1399,6 +1405,7 @@ a.sub-navigation-link:hover {
 
   .homepage-menu {
     min-height: 85vh;
+    padding-top: 4rem;
   }
 
   .illus-grid {
