@@ -786,6 +786,7 @@ a:active {
   grid-gap: 1rem;
   background: var(--background-color-about);
   grid-template-rows: 1fr;
+  padding-bottom: 2rem;
 }
 
 .project-bottom-grid {
@@ -1521,6 +1522,11 @@ a.sub-navigation-link:hover {
   .gallery-image-6 {
     grid-column: 5 / span 4;
     grid-row: 3;
+  }
+
+  .gallery-image-7 {
+    grid-column: 1 / span 8;
+    grid-row: 4;
   }
 
   .hue-resize-mobile {
