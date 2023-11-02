@@ -467,7 +467,7 @@ a:active {
   justify-content: space-between;
   align-items: center;
   top: auto;
-  transition: top 0.2s ease-in-out;
+  transition: top 0.3s ease-in-out;
   position: sticky;
   background-color: #ffffff;
   border-bottom: 1px solid #d3d3d3;
