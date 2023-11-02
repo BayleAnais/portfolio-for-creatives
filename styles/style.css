@@ -850,6 +850,20 @@ a:active {
   margin-bottom: 1rem;
 }
 
+.project-item-content-credit {
+  line-height: 1.5;
+}
+
+.project-item-content-credit-bottom {
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+
+.project-item-content-credit:hover,
+.project-item-content-credit-bottom:hover {
+  color: #ec5332;
+}
+
 project-list {
   grid-column: 1/2;
 }
@@ -1355,6 +1369,10 @@ a.sub-navigation-link:hover {
   }
 
   .project-item-content {
+    margin-top: 0;
+  }
+
+  .project-item-content-credit {
     margin-top: 0;
   }
 
