@@ -867,6 +867,14 @@ project-list-content {
   display: none;
 }
 
+.collab-links {
+  font-weight: 600;
+}
+
+.collab-links:hover {
+  color: #ec5332;
+}
+
 .project-sub-category {
   line-height: 1.5;
   padding-bottom: 1.75rem;
