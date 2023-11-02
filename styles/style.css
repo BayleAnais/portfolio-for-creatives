@@ -1543,6 +1543,7 @@ a.sub-navigation-link:hover {
     background-image: url(../assets/branding-images/anais-bayle-light-logo-large.svg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 40%;
     z-index: -1;
   }
 
