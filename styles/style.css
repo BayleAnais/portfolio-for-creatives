@@ -466,6 +466,8 @@ a:active {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  top: auto;
+  transition: top 0.2s ease-in-out;
   position: sticky;
   background-color: #ffffff;
   border-bottom: 1px solid #d3d3d3;
@@ -1406,28 +1408,6 @@ a.sub-navigation-link:hover {
   .homepage-menu {
     min-height: 85vh;
     padding-top: 4rem;
-  }
-
-  .illus-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 1rem;
-    flex-direction: row;
-  }
-
-  .illus-grid-item-1 {
-    grid-column: 1/8;
-    grid-row: 1/8;
-  }
-
-  .illus-grid-item-2 {
-    grid-column: 4/8;
-    grid-row: 2/8;
-  }
-
-  .illus-grid-item-3 {
-    grid-column: 4/8;
-    grid-row: 4/8;
   }
 
   .project {

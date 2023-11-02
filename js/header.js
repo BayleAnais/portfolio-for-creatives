@@ -10,7 +10,7 @@ $(function () {
       $("header").css("top", "-10vh");
     } else {
       // upscroll code
-      $("header").css("top", "10vh");
+      $("header").css("top", "0vh");
     }
     lastScrollTop = st;
   });
