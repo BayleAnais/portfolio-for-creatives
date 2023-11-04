@@ -1362,6 +1362,7 @@ a.sub-navigation-link:hover {
     padding-left: 4rem;
     padding-right: 4rem;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
   }
 
   .project-item {
@@ -1458,6 +1459,7 @@ a.sub-navigation-link:hover {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     padding-top: 4rem;
+    border-right: 1px solid #d3d3d3;
   }
 
   .about-item-2 {
