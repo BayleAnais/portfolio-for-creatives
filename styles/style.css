@@ -630,6 +630,12 @@ a:active {
   position: relative;
   border-left: 1px solid #cfcfcf;
 }
+
+.project-hero-images-index {
+  width: 100%;
+  position: relative;
+  border-left: 1px solid #cfcfcf;
+}
 /* A hidden full-screen overlay */
 .overlay1,
 .overlay2,
@@ -1619,6 +1625,16 @@ a.sub-navigation-link:hover {
     width: 70%;
     flex-direction: column;
     background-image: url(../assets/branding-images/anais-bayle-light-logo-large.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    z-index: -1;
+  }
+
+  .project-hero-images-index {
+    width: 70%;
+    flex-direction: column;
+    background-image: url(../assets/branding-images/anais-bayle-logo-preview.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 40%;
