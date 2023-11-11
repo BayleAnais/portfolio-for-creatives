@@ -491,6 +491,11 @@ a:active {
   max-width: 3rem;
 }
 
+.logo-image:hover {
+  content: url(..//assets/branding-images/red.svg);
+  transition: 0.5s ease-in-out;
+}
+
 .logo-name {
   grid-column: 2;
   grid-column: 2;
