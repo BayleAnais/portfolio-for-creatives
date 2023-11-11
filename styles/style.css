@@ -489,12 +489,10 @@ a:active {
 .logo-image {
   grid-column: 1;
   max-width: 3rem;
-  content: url(..//assets/branding-images/grey.svg);
 }
 
 .logo-image:hover {
   content: url(..//assets/branding-images/red.svg);
-  transition: 0.5s ease-in-out;
 }
 
 .logo-name {
