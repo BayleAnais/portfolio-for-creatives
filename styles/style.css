@@ -488,9 +488,9 @@ a:active {
   max-width: 3rem;
 }
 
-/* .logo-image:hover {
+.logo-image:hover {
   content: url(..//assets/branding-images/red.svg);
-} */
+}
 
 .logo-name {
   grid-column: 2;
@@ -553,7 +553,13 @@ a:active {
 .menu-item-grey:hover,
 .menu-item-white:hover {
   background-color: #ec5332;
-  color: white;
+  color: #f1f1f1;
+}
+
+.menu-item-grey h4:hover,
+.menu-item-white h4:hover {
+  color: #f1f1f1;
+  font-weight: 600;
 }
 
 .menu-item-grey,
@@ -574,6 +580,10 @@ a:active {
   align-self: center;
   width: 30px;
   box-shadow: 0.5px 0.5px 1px #c8c8c8;
+}
+
+.project-thumbnail h4:hover {
+  color: #f1f1f1;
 }
 
 /* Background images */
