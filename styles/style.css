@@ -1239,6 +1239,11 @@ a.sub-navigation-link:hover {
     border-right: none;
   }
 
+  .menu-item-grey,
+  .menu-item-white {
+    padding-left: 2rem;
+  }
+
   .about-item-2 {
     grid-column: 1 / 2;
     grid-row: 2 / 2;
@@ -1395,6 +1400,12 @@ a.sub-navigation-link:hover {
     grid-column: 2/2;
   }
 
+  .menu-item-grey,
+  .menu-item-white {
+    padding-left: 4rem;
+    grid-gap: 1rem;
+  }
+
   .global-footer {
     padding-top: 2rem;
     grid-template-columns: 1fr 1fr 2fr;
@@ -1496,6 +1507,7 @@ a.sub-navigation-link:hover {
   .homepage-menu {
     min-height: 85vh;
     padding-top: 4rem;
+    min-width: 400px;
   }
 
   .project {
