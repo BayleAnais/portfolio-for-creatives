@@ -1267,6 +1267,10 @@ a.sub-navigation-link:hover {
     max-width: 3rem;
   }
 
+  .logo-image:hover {
+    content: url(..//assets/branding-images/red.svg);
+  }
+
   .logo-name {
     grid-column: 2;
     align-self: center;
