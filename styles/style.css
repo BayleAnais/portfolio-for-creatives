@@ -488,9 +488,9 @@ a:active {
   max-width: 3rem;
 }
 
-.logo-image:hover {
+/* .logo-image:hover {
   content: url(..//assets/branding-images/red.svg);
-}
+} */
 
 .logo-name {
   grid-column: 2;
@@ -1281,10 +1281,6 @@ a.sub-navigation-link:hover {
     grid-column: 1;
     max-width: 3rem;
   }
-
-  /* .logo-image:hover {
-    content: url(..//assets/branding-images/red.svg);
-  } */
 
   .logo-name {
     grid-column: 2;
