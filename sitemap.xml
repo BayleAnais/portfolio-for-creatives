@@ -19,37 +19,42 @@
 
 <url>
   <loc>https://anaisbayle.com/</loc>
-  <lastmod>2023-11-15T22:33:45+00:00</lastmod>
+  <lastmod>2023-12-06T19:31:28+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://anaisbayle.com/about</loc>
-  <lastmod>2023-11-15T22:33:45+00:00</lastmod>
+  <lastmod>2023-12-06T19:31:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://anaisbayle.com/project-atom</loc>
-  <lastmod>2023-11-15T22:33:45+00:00</lastmod>
+  <lastmod>2023-12-06T19:31:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://anaisbayle.com/project-hue</loc>
-  <lastmod>2023-11-15T22:33:45+00:00</lastmod>
+  <lastmod>2023-12-06T19:31:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://anaisbayle.com/project-creo</loc>
+  <lastmod>2023-12-06T19:31:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://anaisbayle.com/project-cost-of-waste</loc>
-  <lastmod>2023-11-15T22:33:45+00:00</lastmod>
+  <lastmod>2023-12-06T19:31:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://anaisbayle.com/project-untwist-the-truth</loc>
-  <lastmod>2023-11-15T22:33:45+00:00</lastmod>
+  <lastmod>2023-12-06T19:31:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://anaisbayle.com/project-illustration</loc>
-  <lastmod>2023-11-15T22:33:45+00:00</lastmod>
+  <lastmod>2023-12-06T19:31:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
