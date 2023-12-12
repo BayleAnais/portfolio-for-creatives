@@ -370,5 +370,16 @@
     <script src="./js/hero.js"></script>
     <script src="./js/header.js"></script>
     <script src="./js/carousel.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#myCarousel").swiperight(function () {
+          $("#myCarousel").carousel("prev");
+        });
+        $("#myCarousel").swipeleft(function () {
+          $("#myCarousel").carousel("next");
+        });
+      });
+    </script>
   </body>
 </html>
