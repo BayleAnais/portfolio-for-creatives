@@ -898,7 +898,7 @@ a:active {
   top: 48%;
   width: auto;
 
-  padding: 1rem;
+  /* padding: 0.5rem; */
   color: #000000;
   font-weight: lighter;
   font-size: 24px;
