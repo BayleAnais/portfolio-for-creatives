@@ -76,13 +76,13 @@ a {
   --body-typeface: "Manrope", sans-serif;
   --heading-typeface: "Manrope", sans-serif;
   --project-title-typeface: "Manrope", sans-serif;
-  --background-color: #ffffff;
-  --background-color-work: #ffffff;
-  --background-color-about: #ffffff;
-  --background-color-footer: #f1f1f1;
+  --background-color: #F8F8F8;
+  --background-color-work: #F8F8F8;
+  --background-color-about: #F8F8F8;
+  --background-color-footer: #E3E3E3;
   --background-color-red-footer: #ec5332;
   --alt-background-color: #000000;
-  --background-color-holding-page: #ffffff;
+  --background-color-holding-page: #F8F8F8;
   --h1-color: #2e2e2e;
   --h2-color: #2e2e2e;
   --h3-color: #2e2e2e;
@@ -401,7 +401,8 @@ a:active {
 
 .red-footer-item-1 {
   font-weight: 300;
-  color: #f1f1f1;
+  /* color: #f1f1f1; */
+  color: #f8f8f8;
 }
 
 .footer-item-1 {
@@ -411,7 +412,8 @@ a:active {
 
 .red-footer-item-2 {
   font-weight: 600;
-  color: #f1f1f1;
+  /* color: #f1f1f1; */
+  color: #f8f8f8;
   padding-bottom: 1rem;
 }
 
@@ -423,7 +425,8 @@ a:active {
 
 .red-footer-item-3 {
   font-weight: 500;
-  color: #f1f1f1;
+  /* color: #f1f1f1; */
+  color: #f8f8f8;
 }
 
 .footer-item-3 {
@@ -432,7 +435,8 @@ a:active {
 }
 
 .red-footer-item-4 {
-  color: #f1f1f1;
+  /* color: #f1f1f1; */
+  color: #f8f8f8;
   padding-top: 2rem;
 }
 
@@ -468,7 +472,7 @@ a:active {
   top: auto;
   transition: top 0.3s ease-in-out;
   position: sticky;
-  background-color: #ffffff;
+  background-color: #F8F8F8;
   border-bottom: 1px solid #d3d3d3;
   padding-top: 1rem;
   padding-left: 2rem;
@@ -540,25 +544,28 @@ a:active {
 
 .menu-item-white {
   padding-left: 2rem;
-  background-color: white;
+  background-color: F8F8F8;
   color: #2e2e2e;
 }
 
 .menu-item-grey {
   padding-left: 2rem;
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
+  background-color: #e3e3e3;
   color: #2e2e2e;
 }
 
 .menu-item-grey:hover,
 .menu-item-white:hover {
   background-color: #ec5332;
-  color: #f1f1f1;
+  /* color: #f1f1f1; */
+  color: #f8f8f8;
 }
 
 .menu-item-grey h4:hover,
 .menu-item-white h4:hover {
-  color: #f1f1f1;
+  /* color: #f1f1f1; */
+  color: #f8f8f8;
   font-weight: 600;
 }
 
@@ -583,7 +590,8 @@ a:active {
 }
 
 .project-thumbnail h4:hover {
-  color: #f1f1f1;
+  /* color: #f1f1f1; */
+  color: #f8f8f8;
 }
 
 /* Background images */
@@ -749,7 +757,8 @@ a:active {
 }
 
 .red-footer-links {
-  color: #f1f1f1;
+  /* color: #f1f1f1; */
+  color: #f8f8f8;
 }
 
 .red-footer-links:hover {
@@ -1129,7 +1138,8 @@ project-list-content {
   width: 100%;
   min-height: 100vh;
   /* background: url(../assets/branding-images/fake-png.jpg); */
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
+  color: #f8f8f8;
   background-size: 100%;
 }
 
