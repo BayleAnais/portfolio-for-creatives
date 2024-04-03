@@ -79,7 +79,7 @@ a {
   --background-color: #F8F8F8;
   --background-color-work: #F8F8F8;
   --background-color-about: #F8F8F8;
-  --background-color-footer: #E3E3E3;
+  --background-color-footer: #E9E9E9;
   --background-color-red-footer: #ec5332;
   --alt-background-color: #000000;
   --background-color-holding-page: #F8F8F8;
@@ -502,7 +502,8 @@ a:active {
   align-self: center;
   display: grid;
   font-weight: 600;
-  color: white;
+  /* color: white; */
+  color: #f8f8f8;
 }
 
 .hero-footer {
@@ -551,7 +552,7 @@ a:active {
 .menu-item-grey {
   padding-left: 2rem;
   /* background-color: #f1f1f1; */
-  background-color: #e3e3e3;
+  background-color: #E9E9E9;
   color: #2e2e2e;
 }
 
@@ -1751,7 +1752,7 @@ a.sub-navigation-link:hover {
   .project-hero-images {
     width: 70%;
     flex-direction: column;
-    background-image: url(../assets/branding-images/anais-bayle-logo-preview-2.gif);
+    background-image: url(../assets/branding-images/anais-bayle-logo-preview-3.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 40%;
@@ -1761,7 +1762,7 @@ a.sub-navigation-link:hover {
   .project-hero-images-index {
     width: 70%;
     flex-direction: column;
-    background-image: url(../assets/branding-images/anais-bayle-logo-preview-2.gif);
+    background-image: url(../assets/branding-images/anais-bayle-logo-preview-3.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 40%;
