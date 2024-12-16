@@ -192,6 +192,14 @@ p {
   font-weight: 400;
 }
 
+.project-credits {
+
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+
+}
+
 em {
   font-style: italic;
 }
@@ -313,6 +321,7 @@ a:active {
   font-size: 1.2rem;
   color: #ec5332;
 }
+
 .subheading-red2 {
   margin-top: 0.75rem;
   font-size: medium;
@@ -337,9 +346,11 @@ a:active {
   display: flex;
   flex-direction: column;
 }
+
 .social-item {
   line-height: 1rem;
-  padding: 0 1rem 1rem 0; /* top right bottom left */
+  padding: 0 1rem 1rem 0;
+  /* top right bottom left */
 }
 
 .list-item {
@@ -360,6 +371,7 @@ a:active {
   line-height: 1.5;
   margin-bottom: 1rem;
 }
+
 .subheading {
   margin-bottom: 1.5rem;
   font-size: medium;
@@ -381,6 +393,7 @@ a:active {
   font-weight: 600;
   font-size: 1.2rem;
 }
+
 .project-subtitle {
   margin-bottom: 1rem;
   font-size: medium;
@@ -399,16 +412,28 @@ a:active {
   color: #ec5332;
 }
 
-.red-footer-item-1 {
+/* .red-footer-item-1 {
   font-weight: 300;
+  color: #f1f1f1;
+  color: #f8f8f8;
+} */
+
+/* .footer-item-1 {
+  font-weight: 300;
+  color: #ec5332;
+} */
+
+.red-footer-item-1 {
+  font-weight: 600;
   /* color: #f1f1f1; */
   color: #f8f8f8;
 }
 
 .footer-item-1 {
-  font-weight: 300;
+  font-weight: 600;
   color: #ec5332;
 }
+
 
 .red-footer-item-2 {
   font-weight: 600;
@@ -539,7 +564,8 @@ a:active {
 #navigation-item-3,
 #navigation-item-4,
 #navigation-item-5,
-#navigation-item-6 {
+#navigation-item-6,
+#navigation-item-7 {
   padding: 0.9rem;
 }
 
@@ -597,22 +623,30 @@ a:active {
 
 /* Background images */
 .overlay1 {
+  background-image: url(../assets//cover-images/anais-bayle-denizen-cover.gif);
+}
+
+.overlay2 {
   background-image: url(../assets//cover-images/anais-bayle-atom-cover.gif);
 }
-.overlay2 {
-  background-image: url(../assets/cover-images/anais-bayle-hue-cover.gif);
-}
+
 .overlay3 {
-  background-image: url(../assets/cover-images/anais-bayle-creo-cover.gif);
+  background-image: url(../assets/cover-images/anais-bayle-hue-cover.gif);
 }
 
 .overlay4 {
+  background-image: url(../assets/cover-images/anais-bayle-creo-cover.gif);
+}
+
+.overlay5 {
   background-image: url(../assets/cover-images/anais-bayle-cost-of-waste-cover.gif);
 }
-.overlay5 {
+
+.overlay6 {
   background-image: url(../assets/cover-images/anais-bayle-untwist-cover.gif);
 }
-.overlay6 {
+
+.overlay7 {
   background-image: url(../assets/cover-images/anais-bayle-illustrations.gif);
 }
 
@@ -626,6 +660,7 @@ a:active {
   display: flex;
   flex-direction: column;
 }
+
 .homepage-menu {
   width: 100%;
   min-height: 72vh;
@@ -653,6 +688,7 @@ a:active {
   position: relative;
   border-left: 1px solid #cfcfcf;
 }
+
 /* A hidden full-screen overlay */
 .overlay1,
 .overlay2,
@@ -773,6 +809,7 @@ a:active {
 .red-text-for-footer {
   color: #ec5332;
 }
+
 .red-text-for-footer:hover {
   color: #2e2e2e;
 }
@@ -807,6 +844,7 @@ a:active {
   flex: 1;
   grid-template-columns: 1fr;
 }
+
 .project-image-grid {
   display: grid;
   grid-gap: 1rem;
@@ -862,6 +900,14 @@ a:active {
 .project-item-paragraph {
   line-height: 1.5;
   margin-bottom: 1rem;
+}
+
+
+.project-category {
+  line-height: 3;
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+  font-weight: 600;
 }
 
 .project-item {
@@ -962,6 +1008,7 @@ a:active {
   from {
     opacity: 0.5;
   }
+
   to {
     opacity: 2;
   }
@@ -971,6 +1018,7 @@ a:active {
   from {
     opacity: 0.5;
   }
+
   to {
     opacity: 2;
   }
@@ -1003,6 +1051,7 @@ project-list-content {
   display: initial;
   width: 100%;
 }
+
 .hue-resize {
   display: none;
 }
@@ -1076,6 +1125,16 @@ project-list-content {
 .project-content-2 {
   margin-top: 1rem;
 }
+
+.project-content-video {
+  width: 100%;
+  overflow: hidden;
+  aspect-ratio: 16/9;
+  pointer-events: none;
+  margin-bottom: 1rem;
+}
+
+
 
 .gallery-content {
   margin-bottom: 1rem;
@@ -1464,8 +1523,8 @@ a.sub-navigation-link:hover {
     filter: grayscale(100);
   }
 
-  .work-page-grid-item > a.grayscale:active img,
-  .work-page-grid-item > a.grayscale:hover img {
+  .work-page-grid-item>a.grayscale:active img,
+  .work-page-grid-item>a.grayscale:hover img {
     filter: grayscale(0);
   }
 
@@ -1535,11 +1594,13 @@ a.sub-navigation-link:hover {
     padding: 0;
     color: #ec5332;
   }
+
   .footer-item-3 {
     padding-right: 1rem;
     grid-column: 3 / 4;
     grid-row: 1 / 2;
-    justify-self: end; /* aligns social list to the right in the footer */
+    justify-self: end;
+    /* aligns social list to the right in the footer */
     color: #ec5332;
   }
 
@@ -1564,10 +1625,12 @@ a.sub-navigation-link:hover {
     grid-row: 1 / 2;
     padding: 0;
   }
+
   .red-footer-item-3 {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
-    justify-self: end; /* aligns social list to the right in the footer */
+    justify-self: end;
+    /* aligns social list to the right in the footer */
   }
 
   .red-footer-item-4 {
@@ -1739,6 +1802,7 @@ a.sub-navigation-link:hover {
   .hue-resize-mobile {
     display: none;
   }
+
   .hue-resize {
     display: initial;
   }
@@ -1849,7 +1913,8 @@ a.sub-navigation-link:hover {
 
   .social-item {
     line-height: 1.3;
-    padding: 0 1rem 1rem 0; /* top right bottom left */
+    padding: 0 1rem 1rem 0;
+    /* top right bottom left */
   }
 }
 
