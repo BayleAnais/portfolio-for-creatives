@@ -47,4 +47,12 @@ $(document).ready(function () {
       $(".overlay6").fadeOut(200);
     }
   );
+  $("#navigation-item-7").hover(
+    function () {
+      $(".overlay7").fadeIn(200);
+    },
+    function () {
+      $(".overlay7").fadeOut(200);
+    }
+  );
 });
