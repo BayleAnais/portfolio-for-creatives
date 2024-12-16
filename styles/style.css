@@ -567,6 +567,7 @@ a:active {
 #navigation-item-6,
 #navigation-item-7 {
   padding: 0.9rem;
+  width: 100%;
 }
 
 .menu-item-white {
@@ -587,6 +588,7 @@ a:active {
   background-color: #ec5332;
   /* color: #f1f1f1; */
   color: #f8f8f8;
+
 }
 
 .menu-item-grey h4:hover,
@@ -606,6 +608,9 @@ a:active {
   grid-column: 2/2;
   justify-self: start;
   font-weight: 600;
+
+
+
 }
 
 .project-thumbnail {
@@ -1567,6 +1572,15 @@ a.sub-navigation-link:hover {
     grid-gap: 1rem;
   }
 
+  .menu-item-grey:hover,
+  .menu-item-white:hover {
+    background-color: #ec5332;
+    /* color: #f1f1f1; */
+    color: #f8f8f8;
+  }
+
+
+
   .global-footer {
     padding-top: 2rem;
     grid-template-columns: 1fr 1fr 2fr;
@@ -1941,6 +1955,9 @@ a.sub-navigation-link:hover {
     padding-top: 4rem;
     max-width: 950px;
   }
+
+
+
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
