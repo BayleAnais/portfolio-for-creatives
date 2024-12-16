@@ -1,0 +1,23 @@
+Last login: Sun Dec 15 16:13:59 on ttys002
+anaisbayle@Anaiss-MBP portfolio-for-creatives % git config --global http.postBuffer 157286400
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
