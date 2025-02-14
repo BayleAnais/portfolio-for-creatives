@@ -619,6 +619,7 @@ a:active {
   align-self: center;
   width: 30px;
   box-shadow: 0.5px 0.5px 1px #c8c8c8;
+
 }
 
 .project-thumbnail h4:hover {
@@ -628,31 +629,31 @@ a:active {
 
 /* Background images */
 .overlay1 {
-  background-image: url(../assets/cover-images/anais-bayle-denizen-cover.gif);
+  background-image: url(../assets/cover-images/JPG/anais-bayle-denizen-cover.jpg);
 }
 
 .overlay2 {
-  background-image: url(../assets//cover-images/anais-bayle-atom-cover.gif);
+  background-image: url(../assets//cover-images/JPG/Atom_cover-image.jpg);
 }
 
 .overlay3 {
-  background-image: url(../assets/cover-images/anais-bayle-hue-cover.gif);
+  background-image: url(../assets/cover-images/JPG/anais-bayle-hue-cover.jpg);
 }
 
 .overlay4 {
-  background-image: url(../assets/cover-images/anais-bayle-creo-cover.gif);
+  background-image: url(../assets/cover-images/JPG/anais-bayle-creo-cover.jpg);
 }
 
 .overlay5 {
-  background-image: url(../assets/cover-images/anais-bayle-cost-of-waste-cover.gif);
+  background-image: url(../assets/cover-images/JPG/anais-bayle-cost-of-waste-cover.jpg);
 }
 
 .overlay6 {
-  background-image: url(../assets/cover-images/anais-bayle-untwist-cover.gif);
+  background-image: url(../assets/cover-images/JPG/anais-bayle-untwist-cover.jpg);
 }
 
 .overlay7 {
-  background-image: url(../assets/cover-images/anais-bayle-illustrations.gif);
+  background-image: url(../assets/cover-images/JPG/anais-bayle-illustrations.jpg);
 }
 
 .descriptor-name {
