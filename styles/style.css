@@ -1766,52 +1766,70 @@ a.sub-navigation-link:hover {
 
   .gallery-image-1 {
     grid-column: 1 / span 2;
-    grid-row: 1;
+    grid-row: 2;
   }
 
   .gallery-image-2 {
     grid-column: 3 / span 2;
-    grid-row: 1;
+    grid-row: 2;
   }
 
   .gallery-image-3 {
     grid-column: 5 / span 2;
+    grid-row: 2;
+  }
+
+
+  .gallery-image-11 {
+    grid-column: 1 / span 2;
     grid-row: 1;
   }
 
+  .gallery-image-12 {
+    grid-column: 3 / span 2;
+    grid-row: 1;
+  }
+
+  .gallery-image-13 {
+    grid-column: 5 / span 2;
+    grid-row: 1;
+  }
+
+
+
   .gallery-image-4 {
     grid-column: 1 / span 2;
-    grid-row: 2;
+    grid-row: 3;
   }
 
   .gallery-image-5 {
     grid-column: 3 / span 4;
-    grid-row: 2;
+    grid-row: 3;
   }
 
   .gallery-image-6 {
     grid-column: 1 / span 2;
-    grid-row: 3;
+    grid-row: 4;
   }
 
   .gallery-image-7 {
     grid-column: 3 / span 2;
-    grid-row: 3;
+    grid-row: 4;
   }
 
   .gallery-image-8 {
     grid-column: 5 / span 2;
-    grid-row: 3;
+    grid-row: 4;
   }
 
   .gallery-image-9 {
     grid-column: 1 / span 2;
-    grid-row: 4;
+    grid-row: 5;
   }
 
   .gallery-image-10 {
     grid-column: 3 / span 4;
-    grid-row: 4;
+    grid-row: 5;
   }
 
   .hue-resize-mobile {
